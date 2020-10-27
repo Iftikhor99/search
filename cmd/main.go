@@ -34,8 +34,8 @@ func main() {
 	// }()
 	// time.Sleep(time.Second*10)
 	// done <- struct{}{}
-	ch := make(chan int)
-	root := context.Background()
+	// ch := make(chan int)
+	// root := context.Background()
 
 	log.Print("Cancel")
 	
